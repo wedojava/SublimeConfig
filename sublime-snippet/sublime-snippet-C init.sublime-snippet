@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+#include <stdio.h>
+${1:#include <${2:string}.h>}
+
+${3:#define ${4:CONST} ${5:value}}
+
+int main(void) {
+    ${6:}
+
+    return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>init</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>
+
+<snippet>
+	<content><![CDATA[
+scanf("${1:%s}", ${2:ptr});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>scanf</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c</scope>
+</snippet>
