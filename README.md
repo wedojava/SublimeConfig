@@ -8,3 +8,7 @@ ln -s ~/Git/SublimeConfig/sublime-snippet/ ~/.config/sublime-text-3/Packages/Use
 ln -s ~/Git/SublimeConfig/C.sublime-build ~/.config/sublime-text-3/Packages/User/C.sublime-build
 ```
 
+For Windows:
+```powershell
+copy C.sublime-build %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\
+```
