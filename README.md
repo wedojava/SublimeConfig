@@ -11,4 +11,6 @@ ln -s ~/Git/SublimeConfig/C.sublime-build ~/.config/sublime-text-3/Packages/User
 For Windows:
 ```powershell
 copy C.sublime-build %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\
+mkdir %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\sublime-snippet\\
+copy sublime-snippet\\* %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\sublime-snippet\\
 ```
