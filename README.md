@@ -9,6 +9,8 @@ ln -s ~/Git/SublimeConfig/C.sublime-build ~/.config/sublime-text-3/Packages/User
 sudo apt install clang-format -y
 rm ~/.config/sublime-text-3/Packages/User/clang_format_custom.sublime-settings
 ln -s ~/Git/SublimeConfig/clang_format_custom.sublime-settings ~/.config/sublime-text-3/Packages/User/clang_format_custom.sublime-settings
+rm ~/.config/sublime-text-3/Packages/User/clang_format.sublime-settings
+ln -s ~/Git/SublimeConfig/clang_format.sublime-settings ~/.config/sublime-text-3/Packages/User/clang_format.sublime-settings
 ```
 
 For Windows:
