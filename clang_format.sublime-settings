@@ -1,0 +1,7 @@
+{
+	"BasedOnStyle": "LLVM",
+	"IndentWidth": 4,
+	"binary": "clang-format",
+	"format_on_save": true,
+	"style": "Custom"
+}
