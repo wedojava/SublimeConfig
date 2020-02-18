@@ -14,5 +14,5 @@ For Windows:
 copy C.sublime-build %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\
 mkdir %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\sublime-snippet\\
 copy sublime-snippet\\* %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\sublime-snippet\\
-copy clang_format.sublime-settings %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\clang_format.sublime-settings
+copy clang_format.sublime-settings %userprofile%\\scoop\\persist\\sublime-text\\Data\\Packages\\User\\
 ```
