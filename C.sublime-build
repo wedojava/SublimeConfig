@@ -24,8 +24,23 @@
                 // "shell_cmd":   "g++ -std=c++11 -Wall \"${file}\" -o \"${file_path}/${file_base_name}\" && start \"$file_base_name\" call $file_base_name"
             },
 
+            /**
+             * 在苹果终端输入exit命令后，竟然不退出，以下解决：
+
+              ------->终端
+
+                -------->偏好设置
+
+                  ------->描述文件
+
+                        -------->Shell
+
+                          --------->单shell退出时：
+
+                                      选择：关闭窗口
+             */
             "osx":{
-                "shell_cmd": "g++ -std=c++11 -Wall \"${file}\" -o \"${file_path}/${file_base_name}.out\" && xterm -e '${file_path}/${file_base_name}.out && echo && echo Press ENTER to continue && read line && exit'",
+                "shell_cmd": "g++ '${file}' -o '${file_path}/${file_base_name}.out' && osascript -e 'tell application \"Terminal\" to activate do script \"clear&&${file_path}/${file_base_name}.out && echo \\\"Press Enter to exit.\\\"&& read line && exit && exit\"'",
             },
 
             "shell": true,
