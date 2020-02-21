@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+class ${1}Test extends ${2:PHPUnit_Framework_TestCase}
+{
+	/** @test */
+	function it_()
+	{
+		${3}
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>testcase</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
